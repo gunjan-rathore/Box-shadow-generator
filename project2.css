@@ -1,0 +1,87 @@
+body {
+    background-color: #0d1117;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #161b22;
+    border-radius: 0px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); 
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 30px;
+}
+
+.result {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0d1117;
+    border-radius: 0px;
+    margin-bottom: 30px;
+}
+
+#element {
+    height: 120px;
+    width: 120px;
+    background-color: #58a6ff; 
+    border-radius: 0px;
+}
+
+
+.sliders {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.slider-wrapper label {
+    font-size: 0.9rem;
+    color: #8b949e;
+}
+
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.code-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 80px; 
+    gap: 10px;
+    margin-top: 30px;
+}
+
+textarea {
+    resize: none;
+    padding: 10px;
+    background-color: #0d1117;
+    color: #7ee787; 
+    border: 1px solid #30363d;
+    border-radius: 0px;
+    font-family: monospace;
+}
+
+.code-wrapper button {
+    background-color: #238636;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+ 
+}
+
+.code-wrapper button:hover {
+    background-color: #2ea043;
+}
